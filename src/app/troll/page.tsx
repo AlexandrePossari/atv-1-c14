@@ -48,7 +48,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Read our docs
+<<<<<<< HEAD
             change to appear in the rebase
+=======
+>>>>>>> ce7d79edd59fc7709be6fae98fa81a3fa18150a6
           </a>
         </div>
       </main>
