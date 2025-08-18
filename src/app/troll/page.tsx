@@ -48,6 +48,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Read our docs
+            solve conflict
             change to appear in the rebase
           </a>
         </div>
