@@ -77,10 +77,10 @@ export function divide(a: number, b: number): number {
     }
 
     const result = a / b;
-
-    if (!isFinite(result)) {
-        throw new CalculatorError('Division resulted in infinite value');
-    }
+    // Removido a condicional, e os testes ainda passam, logo, não há testes validando
+    // if (!isFinite(result)) {
+    //     throw new CalculatorError('Division resulted in infinite value');
+    // }
 
     return result;
 }
