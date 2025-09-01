@@ -100,4 +100,8 @@ describe('Calculator Unit Tests', () => {
     test('multiplication resulting in infinite value throws error', () => {
         expect(() => multiply(Number.MAX_VALUE, 2)).toThrow('Multiplication resulted in infinite value');
     });
+
+    test('division resulting in infinite value throws error', () => {
+        expect(() => divide(Number.MAX_VALUE, Number.MIN_VALUE)).toThrow('Division resulted in infinite value');
+    });
 });
