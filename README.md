@@ -46,3 +46,7 @@ pnpm start
 # or
 bun start
 ```
+
+## Unit test practical exercise
+
+This [PR](https://github.com/AlexandrePossari/atv-1-c14/pull/4) found a problem that was not being tested. This issue was fixed by this [commit](https://github.com/AlexandrePossari/atv-1-c14/commit/e3ae1759e71bd52fcf00cf887a8f7fcfe828b1af)
